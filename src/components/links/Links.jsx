@@ -32,9 +32,9 @@ const Links = () => {
                 <div className="portfolio__links-menu_container scale-up-center">
                     <div className="portfolio__links-menu_container-links">
                         <p><a href="https://www.linkedin.com/in/seansettgast/"><AiFillLinkedin color="#ffffff" /> LinkedIn</a></p>
-                        <p><a href="https://www.linkedin.com/in/seansettgast/"><AiFillGithub color="#ffffff" /> Github</a></p>
-                        <p><a href="https://www.linkedin.com/in/seansettgast/"><AiFillFacebook color="#ffffff" /> Facebook</a></p>
-                        <p><a href=""><AiFillFileText color="#ffffff" /> Resume</a></p>
+                        <p><a href="https://github.com/DralafiXIII"><AiFillGithub color="#ffffff" /> Github</a></p>
+                        <p><a href="https://www.facebook.com/sean.settgast/"><AiFillFacebook color="#ffffff" /> Facebook</a></p>
+                        <p><a href="../../public/assets/Resume (1-18-2022).pdf" target="_blank" download><AiFillFileText color="#ffffff" /> Resume</a></p>
                     </div>
                 </div>
             )}

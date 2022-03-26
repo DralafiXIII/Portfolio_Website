@@ -53,10 +53,6 @@ const Navigation = () => {
                     <Links />
                 </div>
             </div>
-            <div className="portfolio__navbar-sign">
-                <p>Sign in</p>
-                <button type="button">Guest Signin</button>
-            </div>
             <div className="portfolio__navbar-menu">
                 {toggleMenu 
                 ? <RiCloseLine color="#ffffff" size={27} onClick={() => setToggleMenu(false)} />
@@ -65,10 +61,6 @@ const Navigation = () => {
                     <div className="portfolio__navbar-menu_container scale-up-center">
                         <div className="portfolio__navbar-menu_container-links">
                             <Menu />
-                            <div className="portfolio__navbar-menu_container-links-sign">
-                                <p>Sign in</p>
-                                <button type="button">Guest Signin</button>
-                            </div>
                         </div>
                     </div>
                 )}
