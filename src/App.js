@@ -1,17 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { Header, Footer } from './containers';
 import { Navbar } from './components';
+import { ComponentDisplayContext } from "./contexts/ComponentDisplayContext";
 import './app.css';
 
-const App = () => {
+function App() {
+    const [comp, setComp] = useState(<Header />)
+
     return (
         <div className="App">
             <div className="gradient__bg">
-                <Navbar />
-                <Header />
+                <ComponentDisplayContext.Provider value={{ comp, setComp }}>
+                    <Navbar />
+                </ComponentDisplayContext.Provider>
+                {comp}
             </div>
-            {/*<Footer />*/}
+            <Footer />
         </div>
     )
 }

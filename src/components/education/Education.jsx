@@ -1,10 +1,10 @@
 import React from 'react';
 import './education.css';
 
-const Education = () => {
+function Education() {
     return (
         <div>
-            <h1>Education</h1>
+                
         </div>
     )
 }

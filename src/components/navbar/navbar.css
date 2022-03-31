@@ -58,6 +58,7 @@
     -moz-transition: opacity 0.2s ease-in-out;
     -o-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 .portfolio__navbar-links_logo img:hover {

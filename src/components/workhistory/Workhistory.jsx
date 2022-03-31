@@ -1,10 +1,10 @@
 import React from 'react';
 import './workhistory.css';
 
-const Workhistory = () => {
+function Workhistory() {
     return (
         <div>
-            <h1>Work History</h1>
+                
         </div>
     )
 }

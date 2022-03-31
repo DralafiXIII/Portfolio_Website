@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useRef } from 'react';
 import './links.css';
-import { AiFillLinkedin, AiFillGithub, AiFillFacebook, AiFillFilePdf, AiFillFileText } from 'react-icons/ai';
+import { AiFillLinkedin, AiFillGithub, AiFillFacebook, AiFillFilePdf } from 'react-icons/ai';
 
-const Links = () => {
+function Links() {
     const node = useRef();
     const [toggleMenu, setToggleMenu] = useState(false);
 
@@ -34,7 +34,7 @@ const Links = () => {
                         <p><a href="https://www.linkedin.com/in/seansettgast/"><AiFillLinkedin color="#ffffff" /> LinkedIn</a></p>
                         <p><a href="https://github.com/DralafiXIII"><AiFillGithub color="#ffffff" /> Github</a></p>
                         <p><a href="https://www.facebook.com/sean.settgast/"><AiFillFacebook color="#ffffff" /> Facebook</a></p>
-                        <p><a href="../../public/assets/Resume (1-18-2022).pdf" target="_blank" download><AiFillFileText color="#ffffff" /> Resume</a></p>
+                        <p><a href="../../public/assets/Resume (1-18-2022).pdf" target="_blank" download><AiFillFilePdf color="#ffffff" /> Resume</a></p>
                     </div>
                 </div>
             )}

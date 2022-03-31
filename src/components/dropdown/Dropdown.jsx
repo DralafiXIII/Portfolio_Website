@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState, useRef } from "react";
 
-const Dropdown = ({ value, options, placeholder = "Select" }) => {
+function Dropdown({ value, options, placeholder = "Select" }) {
   const node = useRef();
 
   const [open, setOpen] = useState(false);
