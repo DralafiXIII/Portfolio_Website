@@ -34,7 +34,7 @@ function Links() {
                         <p><a href="https://www.linkedin.com/in/seansettgast/"><AiFillLinkedin color="#ffffff" /> LinkedIn</a></p>
                         <p><a href="https://github.com/DralafiXIII"><AiFillGithub color="#ffffff" /> Github</a></p>
                         <p><a href="https://www.facebook.com/sean.settgast/"><AiFillFacebook color="#ffffff" /> Facebook</a></p>
-                        <p><a href="../../public/assets/Resume (1-18-2022).pdf" target="_blank" download><AiFillFilePdf color="#ffffff" /> Resume</a></p>
+                        <p><a href="../../assets/Resume (1-18-2022).pdf" target="_blank" download><AiFillFilePdf color="#ffffff" /> Resume</a></p>
                     </div>
                 </div>
             )}

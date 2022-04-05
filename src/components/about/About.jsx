@@ -1,6 +1,6 @@
 import './about.css';
 import React from 'react';
-import family from '../../assets/49206222_10156078339487883_5606622940666789888_o.jpg';
+import family from '../../assets/49206222_10156078339487883_5606622940666789888_o.png';
 
 const About = () => {
     return (
