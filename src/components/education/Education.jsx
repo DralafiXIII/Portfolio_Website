@@ -13,7 +13,7 @@ function Education() {
                 <h1 className="gradient__text">Academic Background</h1>
                 <div>
                     <a class="logo" href="https://www.kennesaw.edu/" target="_blank" rel="noopener noreferrer">
-                        <img src={ksu} width="66.667%" alt="Kennesaw State University"/>
+                        <img src={ksu} width="32%" alt="Kennesaw State University"/>
                     </a>
                     <h3>Kennesaw State University</h3>
                     <h4>Master of Science (M.S.) - Software Engineering</h4>

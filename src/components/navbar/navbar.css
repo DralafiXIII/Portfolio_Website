@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    top:0;
 
     /* ff 3.6+ */
     background:-moz-radial-gradient(circle at 3% 25%, #000000 0%, #002853 100%);
@@ -14,9 +15,11 @@
 
     /* ie 10+ */
     background:-ms-radial-gradient(circle at 3% 25%, #000000 0%, #002853 100%);
+    position: -webkit-sticky;
 
     /* global 92%+ browsers support */
     background:radial-gradient(circle at 3% 25%, #000000 0%, #002853 100%);
+    position: sticky;
 
     padding: 2rem 6rem;
 }
